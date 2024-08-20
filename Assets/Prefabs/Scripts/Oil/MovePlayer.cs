@@ -7,22 +7,24 @@ using UnityEngine.UI;
 public class MovePlayer : MonoBehaviour
 {
     public Vector3 targetPosition;
-    public Button moveButton;
 
-    // Start is called before the first frame update
-    void Start()
+    //void OnCollisionEnter(Collision collision)
+    //{
+    //    Debug.Log("Run");
+    //    if (collision.gameObject.CompareTag("Player"))
+    //    {
+    //        Debug.Log("Collided");
+    //        collision.gameObject.transform.position = targetPosition;
+    //    }
+    //}
+
+    private void OnTriggerEnter(Collider other)
     {
-        if(moveButton != null)
+        Debug.Log("Run");
+        if (other.tag == "Player")
         {
-            moveButton.onClick.AddListener(MoveToPosition);
+            Debug.Log("Collided");
+            other.transform.position = targetPosition;
         }
     }
-
-    void MoveToPosition()
-    {
-        //Debug.Log("Clicked");
-        transform.position = targetPosition;
-        //Debug.Log(transform.position);
-        //transform.position = new Vector3(-37.05f, 0.113f, -0.52f);
-    } 
 }
