@@ -1,0 +1,62 @@
+fileFormatVersion: 2
+guid: e8b86315c159bfc4185a0a1e986411f3
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_001
+    second: {fileID: 2100000, guid: 10f4f5d08986e4d47a00c8c67d735253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: 44107b114f3569d4b81189f0c92eb769, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vibrationssessel
+    second: {fileID: 2100000, guid: cce25161706907240b20c0b165a2281c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vibrationssessel__vb_sessel_col_DONE_JP
+    second: {fileID: 2100000, guid: 47855828fe0666747ac10696cd70d547, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vibrationssessel__vb_sessel_col_DONE_JP_0
+    second: {fileID: 2100000, guid: 80ee3159cf1462b4b9e2a61941e70493, type: 2}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_0
+    second: {fileID: 2800000, guid: c7337035bf17ee84eb9b8d9b19452256, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_1.standard
+    second: {fileID: 2800000, guid: e127235beb4484040af3c54cb7c1dc21, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_3
+    second: {fileID: 2800000, guid: c5be3528645957446a1ea6fa4c58b7ce, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_4.standard
+    second: {fileID: 2800000, guid: 2c9ce9d2e08ed3a4aa79fe937f254ab0, type: 3}
+  - first:
+      type: UnityEngine:Texture
+      assembly: UnityEngine.CoreModule
+      name: texture_5.normal
+    second: {fileID: 2800000, guid: 3ecc254716a25824f91a48d6ab30808a, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc45016b844e7624dae3aec10fb443ea, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

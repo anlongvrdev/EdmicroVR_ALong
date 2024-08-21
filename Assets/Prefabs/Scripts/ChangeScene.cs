@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
+    public string name;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,14 @@ public class ChangeScene : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            onChangeScene(name);
+        }
     }
 
     public void onChangeScene(string sceneName)
